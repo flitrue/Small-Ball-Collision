@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="canvas1" height="400px" width="400px"></canvas>
+<canvas id="canvas2" style="margin:0 auto;border: 1px solid #aaa" hidden="hidden"></canvas>
+<script>
+    window.onload = function (){
+       
+        var ball = new Ball();
+        ball.init('canvas1');
+
+    }
+</script>
+<script src="ball.js"></script>
+</body>
+</html>
